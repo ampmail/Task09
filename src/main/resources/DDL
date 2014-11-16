@@ -16,4 +16,13 @@ id SERIAL PRIMARY KEY,
 name VARCHAR(120) NOT NULL
 )
 
-
+SELECT
+  e.id e_id,
+  e.name e_name,
+  e.age e_age,
+  e.e_mail e_e_mail,
+  e.department_id e_department_id,
+  d.id d_id,
+  d.name d_name
+FROM employer AS e FULL JOIN department AS d
+    ON e.department_id = d.id

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb17811-3fed-47eb-83d3-270efeaae893" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/DDL" afterPath="$PROJECT_DIR$/src/main/resources/DDL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/entity/Employer.java" afterPath="$PROJECT_DIR$/src/main/java/courses/entity/Employer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/service/Main.java" afterPath="$PROJECT_DIR$/src/main/java/courses/service/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,57 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DDL" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/DDL">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="-15.84" vertical-offset="0" max-vertical-offset="550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/courses/service/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.27701995" vertical-offset="0" max-vertical-offset="2288">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.public.department" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.department">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.public.employer" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.employer">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostgreSQL - company@localhost" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://db-console:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="214" selection-end="214" vertical-scroll-proportion="-6.827586" vertical-offset="0" max-vertical-offset="330">
+            <state line="14" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.1594203" vertical-offset="0" max-vertical-offset="2156">
               <folding />
             </state>
           </provider>
@@ -170,9 +121,9 @@
         <option value="dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.department" />
         <option value="$PROJECT_DIR$/src/main/java/courses/entity/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/courses/entity/Employer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/DDL" />
         <option value="db-console:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/" />
         <option value="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/DDL" />
         <option value="$PROJECT_DIR$/src/main/java/courses/service/Main.java" />
       </list>
     </option>
@@ -804,7 +755,7 @@
       <workItem from="1415898437149" duration="1401000" />
       <workItem from="1416001989523" duration="3450000" />
       <workItem from="1416065855427" duration="6850000" />
-      <workItem from="1416133356746" duration="22013000" />
+      <workItem from="1416133356746" duration="22869000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1416148559385</created>
@@ -818,11 +769,15 @@
       <created>1416152152192</created>
       <updated>1416152152192</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fin">
+      <created>1416158368909</created>
+      <updated>1416158368909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46862000" />
+    <option name="totallyTimeSpent" value="47718000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -854,7 +809,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1740347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1740347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37000975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -892,7 +847,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2&#10;" />
+    <MESSAGE value="fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -968,9 +924,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/service/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="242">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,9 +1024,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/service/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="242">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,13 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/impl/DepartmentDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="25" selection-start="2242" selection-end="2252" vertical-scroll-proportion="0.863354" vertical-offset="838" max-vertical-offset="2926">
@@ -1355,34 +1300,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DDL">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="-15.84" vertical-offset="0" max-vertical-offset="550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="214" selection-end="214" vertical-scroll-proportion="-6.827586" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.employer">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.department">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
@@ -1424,12 +1342,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.department">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="214" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DDL">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="29" selection-start="566" selection-end="566" vertical-scroll-proportion="0.92833877" vertical-offset="24" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/service/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.27701995" vertical-offset="0" max-vertical-offset="2288">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="14" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.1594203" vertical-offset="0" max-vertical-offset="2156">
+          <folding />
         </state>
       </provider>
     </entry>

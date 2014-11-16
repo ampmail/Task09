@@ -55,7 +55,8 @@ public class Main {
             for (Employer empl : empList) {
                 System.out.println(empl);
             }
-            System.out.println("-- All employers with department id:" + departmentWH.getId()+" --");            empList = employerDAO.readAllbyDepartmentId(departmentWH.getId());
+            System.out.println("-- All employers with department id:" + departmentWH.getId()+" --");
+            empList = employerDAO.readAllbyDepartmentId(departmentWH.getId());
             for (Employer empl : empList) {
                 System.out.println(empl);
             }
