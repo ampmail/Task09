@@ -1,0 +1,12 @@
+CREATE DATABASE company;
+CREATE TABLE employer(
+id SERIAL PRIMARY KEY,
+name VARCHAR(120) NOT NULL,
+age INT NOT NULL,
+e_mail VARCHAR(200) UNIQUE NOT NULL,
+department_id INT references department(id) NOT NULL
+)
+CREATE TABLE department(
+id SERIAL PRIMARY KEY,
+name VARCHAR(120) NOT NULL
+)
