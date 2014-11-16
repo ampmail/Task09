@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb17811-3fed-47eb-83d3-270efeaae893" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/service/Main.java" afterPath="$PROJECT_DIR$/src/main/java/courses/service/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task09.iws" />
@@ -796,17 +794,21 @@
       <workItem from="1415898437149" duration="1401000" />
       <workItem from="1416001989523" duration="3450000" />
       <workItem from="1416065855427" duration="6850000" />
-      <workItem from="1416133356746" duration="15809000" />
+      <workItem from="1416133356746" duration="15826000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1416148559385</created>
       <updated>1416148559385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1416152139002</created>
+      <updated>1416152139002</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40658000" />
+    <option name="totallyTimeSpent" value="40675000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -874,7 +876,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
