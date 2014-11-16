@@ -15,3 +15,5 @@ CREATE TABLE department(
 id SERIAL PRIMARY KEY,
 name VARCHAR(120) NOT NULL
 )
+
+

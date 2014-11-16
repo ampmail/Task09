@@ -125,6 +125,29 @@ public class EmployerDAOImpl implements EmployerDAO {
         return employerList;
     }
 
+    public void readAllJoinEmployerAndDepartment() throws SQLException {
+        connection = connector.getConnection();
+
+        String sql = "SELECT e.id e_id, e.name e_name, e.age e_age, e.e_mail e_e_mail, "+
+                "e.department_id e_department_id, d.id d_id, d.name d_name " +
+                "FROM employer AS e FULL JOIN department AS d " +
+                "ON e.department_id = d.id";
+        PreparedStatement statement = connection.prepareStatement(sql);
+
+        ResultSet resultSet = statement.executeQuery();
+        System.out.println("employer JOIN department: ");
+        while (resultSet.next()) {
+            System.out.println(resultSet.getLong("e_id") + ", " +
+                    resultSet.getString("e_name") + ", " + resultSet.getInt("e_age") + ", " +
+                    resultSet.getString("e_e_mail")+ ", " + resultSet.getLong("e_department_id") + ", " +
+                    resultSet.getLong("d_id")+ ", " + resultSet.getString("d_name"));
+        }
+
+        resultSet.close();
+        statement.close();
+        connection.close();
+    }
+
     public List<Employer> readAllbyDepartmentId(Long department_id) throws SQLException {
         connection = connector.getConnection();
 

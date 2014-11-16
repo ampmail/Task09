@@ -14,9 +14,9 @@ public class Main {
     public static void main(String[] args) throws SQLException {
 
         try {
+            DepartmentDAO departmentDAO = new DepartmentDAOImpl();
             Department departmentWH = new Department();
             departmentWH.setName("Warehouse");
-            DepartmentDAO departmentDAO = new DepartmentDAOImpl();
             departmentDAO.create(departmentWH);
             Department departmentLOG = new Department();
             departmentLOG.setName("Logistic");
@@ -28,12 +28,12 @@ public class Main {
                 System.out.println(dep);
             }
 
+            EmployerDAOImpl employerDAO = new EmployerDAOImpl();
             Employer employer = new Employer();
             employer.setName("Jim");
             employer.setAge(34);
-            employer.setE_mail("Jim@mail.com");
+            employer.setE_mail("Jim@mail.dn");
             employer.setDepartment_id(departmentWH.getId());
-            EmployerDAOImpl employerDAO = new EmployerDAOImpl();
             employerDAO.create(employer);
 
             System.out.println(employerDAO.read(employer.getId()));
@@ -61,13 +61,16 @@ public class Main {
             }
 
             Long employerId = employer.getId();
+            System.out.println("-- Department name search by employer id="+ employerId +" --");
             Long departmentId = employerDAO.readDepartmentIdByEmployerId(employerId);
             Department searchDepartment;
             DepartmentDAO searchDepartmentDAO = new DepartmentDAOImpl();
             searchDepartment = searchDepartmentDAO.read(departmentId);
             System.out.println(searchDepartment.getName().toString());
 
-            
+            System.out.println("-- FULL employer -- ");
+            employerDAO.readAllJoinEmployerAndDepartment();
+
             System.out.println("-- Delete User --");
             employerDAO.delete(employer.getId());
             System.out.println("-- All employers --");
