@@ -86,12 +86,51 @@ public class EmployerDAOImpl implements EmployerDAO {
         return employer;
     }
 
+    public Long readDepartmentIdByEmployerId(Long id) throws SQLException {
+        connection = connector.getConnection();
+
+        String sql = "SELECT department_id FROM employer WHERE id = ?";
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setLong(1, id);
+
+        Long department_id = null;
+        ResultSet resultSet = statement.executeQuery();
+        while (resultSet.next()) {
+            department_id = resultSet.getLong("department_id");
+        }
+
+        resultSet.close();
+        statement.close();
+        connection.close();
+        return department_id;
+    }
+
     @Override
     public List<Employer> readAll() throws SQLException {
         connection = connector.getConnection();
 
         String sql = "SELECT * FROM employer";
         PreparedStatement statement = connection.prepareStatement(sql);
+
+        List<Employer> employerList = new ArrayList<Employer>();
+        ResultSet resultSet = statement.executeQuery();
+        while (resultSet.next()) {
+            employerList.add(new Employer(resultSet.getLong("id"), resultSet.getString("name"),
+                    resultSet.getInt("age"), resultSet.getString("e_mail"), resultSet.getLong("department_id")));
+        }
+
+        resultSet.close();
+        statement.close();
+        connection.close();
+        return employerList;
+    }
+
+    public List<Employer> readAllbyDepartmentId(Long department_id) throws SQLException {
+        connection = connector.getConnection();
+
+        String sql = "SELECT * FROM employer WHERE department_id = ?";
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setLong(1, department_id);
 
         List<Employer> employerList = new ArrayList<Employer>();
         ResultSet resultSet = statement.executeQuery();

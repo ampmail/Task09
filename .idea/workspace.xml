@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb17811-3fed-47eb-83d3-270efeaae893" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/DDL" afterPath="$PROJECT_DIR$/src/main/resources/DDL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/entity/Department.java" afterPath="$PROJECT_DIR$/src/main/java/courses/entity/Department.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/entity/Employer.java" afterPath="$PROJECT_DIR$/src/main/java/courses/entity/Employer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courses/service/Main.java" afterPath="$PROJECT_DIR$/src/main/java/courses/service/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task09.iws" />
@@ -99,7 +92,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/courses/service/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.44272447" vertical-offset="0" max-vertical-offset="1826">
+            <state line="69" column="12" selection-start="2758" selection-end="2758" vertical-scroll-proportion="1.5928646" vertical-offset="0" max-vertical-offset="2222">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,26 +100,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.public.department" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.department">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.public.employer" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.employer">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
+      <file leaf-file-name="EmployerDAOImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+              <folding>
+                <element signature="initializer##0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#create#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#readId#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#read#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#readDepartmentIdByEmployerId#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#readAll#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="e#3727#3737#0" expanded="true" />
+                <element signature="method#readAllbyDepartmentId#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#update#0;class#EmployerDAOImpl#0" expanded="false" />
+                <element signature="method#delete#0;class#EmployerDAOImpl#0" expanded="false" />
+                <marker date="1416151835446" expanded="true" signature="629:704" placeholder="INSERT INTO ..." />
+                <marker date="1416151835446" expanded="true" signature="1315:1402" placeholder="SELECT id FR..employer..." />
+                <marker date="1416151835446" expanded="true" signature="2102:2137" placeholder="SELECT * FRO..employer..." />
+                <marker date="1416151835446" expanded="true" signature="2958:3005" placeholder="SELECT depar..employer..." />
+                <marker date="1416151835446" expanded="true" signature="3578:3600" placeholder="SELECT * FRO..employer..." />
+                <marker date="1416151835446" expanded="true" signature="4332:4378" placeholder="SELECT * FRO..employer..." />
+                <marker date="1416151835446" expanded="true" signature="5143:5224" placeholder="UPDATE emplo..." />
+                <marker date="1416151835446" expanded="true" signature="5798:5831" placeholder="DELETE FROM ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/main/java/courses/dao/impl/DepartmentDAOImpl.java" />
         <option value="dbtable:/c177a31b/721ab714-6fd0-4326-8e72-fe48713770e9/mydb.public.department" />
         <option value="dbtable:/c177a31b/721ab714-6fd0-4326-8e72-fe48713770e9/mydb.public.employer" />
-        <option value="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/DDL" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="db-console:/c177a31b/721ab714-6fd0-4326-8e72-fe48713770e9/" />
@@ -168,6 +164,7 @@
         <option value="dbtable:/c177a31b/5b1931a8-ec37-4670-83c1-5fff88b4ec46/company.public.department" />
         <option value="$PROJECT_DIR$/src/main/java/courses/entity/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/courses/entity/Employer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/courses/service/Main.java" />
       </list>
     </option>
@@ -799,12 +796,17 @@
       <workItem from="1415898437149" duration="1401000" />
       <workItem from="1416001989523" duration="3450000" />
       <workItem from="1416065855427" duration="6850000" />
-      <workItem from="1416133356746" duration="12486000" />
+      <workItem from="1416133356746" duration="15809000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1416148559385</created>
+      <updated>1416148559385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37335000" />
+    <option name="totallyTimeSpent" value="40658000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -850,7 +852,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.116396196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1729155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296371" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -871,6 +873,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -893,12 +897,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="2662">
           <folding>
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT id FR..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="UPDATE emplo..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <element signature="initializer##0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#create#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#read#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readDepartmentIdByEmployerId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readAll#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="e#3727#3737#0" expanded="true" />
+            <element signature="method#readAllbyDepartmentId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#update#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#delete#0;class#EmployerDAOImpl#0" expanded="false" />
+            <marker date="1416151835446" expanded="true" signature="629:704" placeholder="INSERT INTO ..." />
+            <marker date="1416151835446" expanded="true" signature="1315:1402" placeholder="SELECT id FR..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2102:2137" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2958:3005" placeholder="SELECT depar..employer..." />
+            <marker date="1416151835446" expanded="true" signature="3578:3600" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="4332:4378" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="5143:5224" placeholder="UPDATE emplo..." />
+            <marker date="1416151835446" expanded="true" signature="5798:5831" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -906,10 +922,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/entity/Employer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="16" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="2244">
-          <folding>
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -966,12 +979,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="858">
           <folding>
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT id FR..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="UPDATE emplo..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <element signature="initializer##0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#create#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#read#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readDepartmentIdByEmployerId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readAll#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="e#3727#3737#0" expanded="true" />
+            <element signature="method#readAllbyDepartmentId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#update#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#delete#0;class#EmployerDAOImpl#0" expanded="false" />
+            <marker date="1416151835446" expanded="true" signature="629:704" placeholder="INSERT INTO ..." />
+            <marker date="1416151835446" expanded="true" signature="1315:1402" placeholder="SELECT id FR..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2102:2137" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2958:3005" placeholder="SELECT depar..employer..." />
+            <marker date="1416151835446" expanded="true" signature="3578:3600" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="4332:4378" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="5143:5224" placeholder="UPDATE emplo..." />
+            <marker date="1416151835446" expanded="true" signature="5798:5831" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1000,10 +1025,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/entity/Employer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="2266">
-          <folding>
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,10 +1128,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/entity/Employer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="264">
-          <folding>
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,12 +1146,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="3" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="220">
           <folding>
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT id FR..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="UPDATE emplo..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <element signature="initializer##0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#create#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#read#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readDepartmentIdByEmployerId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readAll#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="e#3727#3737#0" expanded="true" />
+            <element signature="method#readAllbyDepartmentId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#update#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#delete#0;class#EmployerDAOImpl#0" expanded="false" />
+            <marker date="1416151835446" expanded="true" signature="629:704" placeholder="INSERT INTO ..." />
+            <marker date="1416151835446" expanded="true" signature="1315:1402" placeholder="SELECT id FR..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2102:2137" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2958:3005" placeholder="SELECT depar..employer..." />
+            <marker date="1416151835446" expanded="true" signature="3578:3600" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="4332:4378" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="5143:5224" placeholder="UPDATE emplo..." />
+            <marker date="1416151835446" expanded="true" signature="5798:5831" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1198,13 +1229,6 @@
         <state line="214" column="57" selection-start="7977" selection-end="7977" vertical-scroll-proportion="0.5734127" vertical-offset="3448" max-vertical-offset="13002" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/EmployerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="104" selection-end="112" vertical-scroll-proportion="0.0967033" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="38" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.5989529" vertical-offset="0" max-vertical-offset="26466">
@@ -1246,36 +1270,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/courses/entity/Employer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="21" selection-start="2061" selection-end="2061" vertical-scroll-proportion="1.8448" vertical-offset="387" max-vertical-offset="1738">
-          <folding>
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/entity/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="27" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.7275542" vertical-offset="498" max-vertical-offset="1144">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/impl/DepartmentDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="45" selection-start="948" selection-end="948" vertical-scroll-proportion="0.9318885" vertical-offset="168" max-vertical-offset="2926">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2561#2573#0" expanded="true" />
-            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="SELECT id FR..department..." />
-            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..department..." />
-            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..department..." />
-            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="UPDATE depar..." />
-            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,17 +1291,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/courses/entity/Employer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.7377567" vertical-offset="1188" max-vertical-offset="2992">
-          <folding>
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT id FR..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employer..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="UPDATE emplo..." />
-            <marker date="1416141998540" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
+        <state line="88" column="21" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/EmployerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="57" selection-start="104" selection-end="112" vertical-scroll-proportion="0.09109731" vertical-offset="0" max-vertical-offset="966">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,6 +1325,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/DDL">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1337,16 +1342,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/impl/DepartmentDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <folding />
+        <state line="76" column="25" selection-start="2242" selection-end="2252" vertical-scroll-proportion="0.863354" vertical-offset="838" max-vertical-offset="2926">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2561#2573#0" expanded="true" />
+            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="SELECT id FR..department..." />
+            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..department..." />
+            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..department..." />
+            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="UPDATE depar..." />
+            <marker date="1416138120183" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/courses/dao/impl/EmployerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <folding>
+            <element signature="initializer##0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#create#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#read#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readDepartmentIdByEmployerId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#readAll#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="e#3727#3737#0" expanded="true" />
+            <element signature="method#readAllbyDepartmentId#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#update#0;class#EmployerDAOImpl#0" expanded="false" />
+            <element signature="method#delete#0;class#EmployerDAOImpl#0" expanded="false" />
+            <marker date="1416151835446" expanded="true" signature="629:704" placeholder="INSERT INTO ..." />
+            <marker date="1416151835446" expanded="true" signature="1315:1402" placeholder="SELECT id FR..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2102:2137" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="2958:3005" placeholder="SELECT depar..employer..." />
+            <marker date="1416151835446" expanded="true" signature="3578:3600" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="4332:4378" placeholder="SELECT * FRO..employer..." />
+            <marker date="1416151835446" expanded="true" signature="5143:5224" placeholder="UPDATE emplo..." />
+            <marker date="1416151835446" expanded="true" signature="5798:5831" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/courses/service/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.44272447" vertical-offset="0" max-vertical-offset="1826">
+        <state line="69" column="12" selection-start="2758" selection-end="2758" vertical-scroll-proportion="1.5928646" vertical-offset="0" max-vertical-offset="2222">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,7 +1,6 @@
 package courses.service;
 
 import courses.dao.DepartmentDAO;
-import courses.dao.EmployerDAO;
 import courses.dao.impl.DepartmentDAOImpl;
 import courses.dao.impl.EmployerDAOImpl;
 import courses.entity.Department;
@@ -34,7 +33,7 @@ public class Main {
             employer.setAge(34);
             employer.setE_mail("Jim@mail.com");
             employer.setDepartment_id(departmentWH.getId());
-            EmployerDAO employerDAO = new EmployerDAOImpl();
+            EmployerDAOImpl employerDAO = new EmployerDAOImpl();
             employerDAO.create(employer);
 
             System.out.println(employerDAO.read(employer.getId()));
@@ -50,6 +49,25 @@ public class Main {
             employerDAO.update(employer);
             System.out.println(employerDAO.read(employer.getId()));
 
+
+            System.out.println("-- All employers with department id:" + departmentLOG.getId()+" --");
+            empList = employerDAO.readAllbyDepartmentId(departmentLOG.getId());
+            for (Employer empl : empList) {
+                System.out.println(empl);
+            }
+            System.out.println("-- All employers with department id:" + departmentWH.getId()+" --");            empList = employerDAO.readAllbyDepartmentId(departmentWH.getId());
+            for (Employer empl : empList) {
+                System.out.println(empl);
+            }
+
+            Long employerId = employer.getId();
+            Long departmentId = employerDAO.readDepartmentIdByEmployerId(employerId);
+            Department searchDepartment;
+            DepartmentDAO searchDepartmentDAO = new DepartmentDAOImpl();
+            searchDepartment = searchDepartmentDAO.read(departmentId);
+            System.out.println(searchDepartment.getName().toString());
+
+            
             System.out.println("-- Delete User --");
             employerDAO.delete(employer.getId());
             System.out.println("-- All employers --");
