@@ -86,7 +86,7 @@ public class Employer {
 
     @Override
     public String toString() {
-        return "User{id=" + id +", name='" + name + "', age=" + age +", e_mail=" + e_mail +
+        return "User {id=" + id +", name='" + name + "', age=" + age +", e_mail=" + e_mail +
                 ", department_id=" + department_id +'}';
     }
 }

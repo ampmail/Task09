@@ -12,44 +12,66 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException{
+    public static void main(String[] args) throws SQLException {
 
-        Department departmentWH = new Department();
-        departmentWH.setName("Warehouse");
-        DepartmentDAO departmentDAO = new DepartmentDAOImpl();
-        departmentDAO.create(departmentWH);
-        System.out.println(departmentWH.toString());
+        try {
+            Department departmentWH = new Department();
+            departmentWH.setName("Warehouse");
+            DepartmentDAO departmentDAO = new DepartmentDAOImpl();
+            departmentDAO.create(departmentWH);
+            Department departmentLOG = new Department();
+            departmentLOG.setName("Logistic");
+            departmentDAO.create(departmentLOG);
 
-        Employer employer = new Employer();
-        employer.setName("Jim");
-        employer.setAge(34);
-        employer.setE_mail("Jim@mail.qq");
-        employer.setDepartment_id(departmentWH.getId());
+            System.out.println("-- All Departments --");
+            List<Department> depList = departmentDAO.readAll();
+            for (Department dep : depList) {
+                System.out.println(dep);
+            }
 
-        EmployerDAO employerDAO = new EmployerDAOImpl();
-        employerDAO.create(employer);
+            Employer employer = new Employer();
+            employer.setName("Jim");
+            employer.setAge(34);
+            employer.setE_mail("Jim@mail.com");
+            employer.setDepartment_id(departmentWH.getId());
+            EmployerDAO employerDAO = new EmployerDAOImpl();
+            employerDAO.create(employer);
 
-//        System.out.println(employerDAO.read(18L));
-//        System.out.println("-----");
-//
-//        List<Employer> list = employerDAO.readAll();
-//        for (Employer user1 : list) {
-//            System.out.println(user1);
-//        }
-//        System.out.println("-----");
-//
-//        employer.setName("Bob");
-//        employerDAO.update(employer);
-//
-//        System.out.println(employerDAO.read(19L));
-//        System.out.println("-----");
-//
-//        employerDAO.delete(19L);
-//
-//        list = employerDAO.readAll();
-//        for (Employer user1 : list) {
-//            System.out.println(user1);
-//        }
+            System.out.println(employerDAO.read(employer.getId()));
+
+            System.out.println("-- All employers --");
+            List<Employer> empList = employerDAO.readAll();
+            for (Employer empl : empList) {
+                System.out.println(empl);
+            }
+
+            System.out.println("-- Update User Jim to Bob --");
+            employer.setName("Bob");
+            employerDAO.update(employer);
+            System.out.println(employerDAO.read(employer.getId()));
+
+            System.out.println("-- Delete User --");
+            employerDAO.delete(employer.getId());
+            System.out.println("-- All employers --");
+            empList = employerDAO.readAll();
+            for (Employer empl : empList) {
+                System.out.println(empl);
+            }
+
+            System.out.println("-- Delete Departments --");
+            departmentDAO.delete(departmentWH.getId());
+            departmentDAO.delete(departmentLOG.getId());
+            System.out.println("-- All Departments --");
+            depList = departmentDAO.readAll();
+            for (Department dep : depList) {
+                System.out.println(dep);
+            }
+
+        } catch (SQLException E) {
+            System.out.println(E.toString());
+        } finally {
+
+        }
         System.out.println("-----");
     }
 

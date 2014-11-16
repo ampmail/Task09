@@ -36,7 +36,7 @@ public class EmployerDAOImpl implements EmployerDAO {
         statement.close();
         connection.close();
 
-        employer.setId(employer.getId());
+        employer.setId(readId(employer));
     }
 
     @Override
@@ -44,7 +44,7 @@ public class EmployerDAOImpl implements EmployerDAO {
         connection = connector.getConnection();
         Long employerId = null;
 
-        String sql = "SELECT id FROM employer WHERE name = ? AND age = ? AND getE_mail = ? AND getDepartment_id = ?";
+        String sql = "SELECT id FROM employer WHERE name = ? AND age = ? AND e_mail = ? AND department_id = ?";
         PreparedStatement statement = connection.prepareStatement(sql);
         statement.setString(1, employer.getName());
         statement.setInt(2, employer.getAge());
@@ -110,7 +110,7 @@ public class EmployerDAOImpl implements EmployerDAO {
     public void update(Employer employer) throws SQLException {
         connection = connector.getConnection();
 
-        String sql = "UPDATE employer SET name = ?, age = ?, getE_mail = ?, getDepartment_id = ? WHERE id = ?";
+        String sql = "UPDATE employer SET name = ?, age = ?, e_mail = ?, department_id = ? WHERE id = ?";
         PreparedStatement statement = connection.prepareStatement(sql);
         statement.setString(1, employer.getName());
         statement.setInt(2, employer.getAge());
